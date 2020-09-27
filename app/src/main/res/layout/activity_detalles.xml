@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Detalles">
+
+    <TextView
+        android:id="@+id/txtid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID:" />
+
+    <TextView
+        android:id="@+id/txtnombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre:" />
+
+    <TextView
+        android:id="@+id/txtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email:" />
+
+    <TextView
+        android:id="@+id/txtcontacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contactos:" />
+
+    <TextView
+        android:id="@+id/txtdireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dirección:" />
+</LinearLayout>
